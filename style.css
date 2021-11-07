@@ -1,0 +1,50 @@
+body{
+    background-color:burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    align-self: flex-start;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(19,6ch);
+    grid-template-rows: repeat(16,6ch);
+    align-items: stretch;
+   
+}
+
+.tile-wall{
+    background-image: url("wall.png");
+   
+}
+.tile-space{
+    background-image: none;
+    
+}
+.tile-goal{
+    background-image: url("goal.gif");
+   
+}
+.entity-player{
+    background-image: url("player.gif");
+    
+}
+.entity-block{
+    background-image: url("block.gif");
+    
+}
+.entity-block-goal
+{
+    background-image: url("blockDone.gif");
+}
+.tile-wall 
+.entity-block
+.tile-space
+.tile-goal
+.entity-player
+.entity-block-goal{
+    background-repeat: no-repeat;
+    image-rendering:auto;      
+}
