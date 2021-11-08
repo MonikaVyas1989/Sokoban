@@ -39,12 +39,13 @@ main{
 {
     background-image: url("blockDone.gif");
 }
-.tile-wall 
-.entity-block
-.tile-space
-.tile-goal
-.entity-player
+.tile-wall, 
+.entity-block,
+.tile-space,
+.tile-goal,
+.entity-player,
 .entity-block-goal{
     background-repeat: no-repeat;
-    image-rendering:auto;      
+    image-rendering:auto;  
+    background-size: cover;    
 }
